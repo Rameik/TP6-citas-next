@@ -1,4 +1,4 @@
-import '../css/Titulo.css'
+import styles from './styles.module.css'
 
 function Titulo({tipo, contenido}) {
     const tipo1 = tipo === "1" ? true : false

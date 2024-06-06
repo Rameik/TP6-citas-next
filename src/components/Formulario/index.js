@@ -1,7 +1,7 @@
-import InputFormulario from './InputFormulario.jsx'
-import Boton from './Boton.jsx'
-import Cita from '../models/Cita.js'
-import { useCitas } from '../hooks/useCitas.js'
+import InputFormulario from '../InputFormulario/index.js'
+import Boton from './Boton'
+import Cita from '../../models/Cita.js'
+import { useCitas } from '../../hooks/useCitas.js'
 
 export function Formulario () {
     const { citas, setCitas } = useCitas()

@@ -1,11 +1,11 @@
-import '../css/InputFormulario.css'
+import styles from './styles.module.css'
 
 function InputFormulario({tipo, contenidoLabel, name, placeholder}) {
     const textArea = tipo == "textarea" ? true : false
 
     return (
         <>
-            <label>{contenidoLabel}</label>
+            <label className={styles.label}>{contenidoLabel}</label>
             {!textArea && <input className="u-full-width" type={tipo} name={name} placeholder={placeholder}/>}
             {textArea && <textarea className="u-full-width" name={name} placeholder={placeholder}/>}
         </>

@@ -1,5 +1,6 @@
 import '../css/Boton.css'
 import { useCitas } from '../hooks/useCitas';
+import styles from './styles.module.css'
 
 function Boton({eliminar, clase, contenido, index}) {
   const { citas, setCitas } = useCitas()
@@ -15,7 +16,7 @@ function Boton({eliminar, clase, contenido, index}) {
 
   return (
     <>
-      <button onClick={handleClick} className={clase}>{contenido}</button>
+      <button onClick={handleClick} className={styles.button.eliminar}>{contenido}</button>
     </>
   )
 }
