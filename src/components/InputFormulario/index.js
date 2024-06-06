@@ -6,7 +6,7 @@ function InputFormulario({tipo, contenidoLabel, name, placeholder}) {
     return (
         <>
             <label className={styles.label}>{contenidoLabel}</label>
-            {!textArea && <input className="u-full-width" type={tipo} name={name} placeholder={placeholder}/>}
+            {!textArea && <input className={styles.input + " u-full-width"} type={tipo} name={name} placeholder={placeholder}/>}
             {textArea && <textarea className="u-full-width" name={name} placeholder={placeholder}/>}
         </>
     )

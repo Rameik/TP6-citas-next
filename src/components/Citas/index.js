@@ -1,6 +1,7 @@
+'use client'
 import styles from './styles.module.css'
-import Boton from "./Boton.jsx";
-import { useCitas } from '../hooks/useCitas';
+import Boton from '@/components/Boton';
+import { useCitas } from '@/hooks/useCitas';
 
 function Citas() {
   const { citas } = useCitas()

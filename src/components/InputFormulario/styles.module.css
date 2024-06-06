@@ -1,9 +1,11 @@
-label {
+.label {
     color: white;
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 600;
 }
 
-input[type="date"],
-input[type="time"] {
+.input {
     height: 38px;
     padding: 6px 10px;
     background-color: #fff;
@@ -11,6 +13,9 @@ input[type="time"] {
     border-radius: 4px;
     box-shadow: none;
     box-sizing: border-box;
+    line-height: 1.15;
+    margin: 0;
+    overflow: visible;
+    margin-bottom: 1.5rem;
+    appearance: none;
 }
-
-/* Meterlo en globals.css */

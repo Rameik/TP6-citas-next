@@ -1,5 +1,6 @@
+'use client'
 import InputFormulario from '../InputFormulario/index.js'
-import Boton from './Boton'
+import Boton from '@/components/Boton'
 import Cita from '../../models/Cita.js'
 import { useCitas } from '../../hooks/useCitas.js'
 
