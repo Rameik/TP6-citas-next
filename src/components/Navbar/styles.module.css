@@ -1,0 +1,27 @@
+.linksContainer{
+    padding-top: 20px;
+    padding-right: 3%;
+}
+
+.links{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 7%;
+    width: 100%;
+}
+
+.links a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2rem;
+    transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
+}
+
+.links li:hover{
+    transform: scale(1.03);
+}
+
+.links a:hover{
+    color: aliceblue !important;
+}

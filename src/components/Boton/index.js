@@ -15,7 +15,7 @@ function Boton({eliminar, clase, contenido, index}) {
 
   return (
     <>
-      <button onClick={handleClick} className={styles.eliminar + clase}>{contenido}</button>
+      <button onClick={handleClick} className={`${styles.button} + ${clase}`}>{contenido}</button>
     </>
   )
 }

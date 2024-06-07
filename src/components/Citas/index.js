@@ -15,7 +15,7 @@ function Citas() {
             <p>Fecha: <span>{cita.fecha}</span></p>
             <p>Hora: <span>{cita.hora}</span></p>
             <p>Sintomas: <span>{cita.sintomas}</span></p>
-            <Boton index={index} eliminar={true} clase="u-full-width button elimnar" contenido="Eliminar x"/>
+            <Boton index={index} eliminar={true} clase="u-full-width button eliminar" contenido="Eliminar x"/>
         </div>
       ))}
     </>

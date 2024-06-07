@@ -1,6 +1,7 @@
+import Titulo from "@/components/Titulo";
 
 export default function Home() {
   return (
-    <h1>Bienvenida</h1>
+    <Titulo tipo="1" contenido="Bienvenido a la pagina de citas!"/>
   );
 }
