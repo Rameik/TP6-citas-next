@@ -5,7 +5,7 @@ import Cita from "../models/Cita";
 export const CitasContext = createContext()
 
 export function CitasProvider ({children}) {
-    const [citas, setCitas] = useState(null)
+    const [citas, setCitas] = useState([])
 
     useEffect(() => {
         setCitas(JSON.parse(window.localStorage.getItem('citas')) ? JSON.parse(window.localStorage.getItem('citas')) : [new Cita("Nina", "Martin", "2021-08-05", "08:20", "Le duele la pierna"),
